@@ -1,0 +1,141 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+
+   /* Tratando a imagem */
+   background-image: url("../img/fundoTelaA.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   /* ---------- */
+}
+
+#container{
+   width: 800px;
+   margin: 0 auto;
+   border: 3px solid black;
+   padding: 10px;
+   background-color: rgb(28 27 27 / 76%);
+   color: #efddf3;
+}
+
+#logo {
+   max-width: 30%;
+}
+
+#menu > ul {
+   display: flex;
+   list-style: none;
+   height: 30px;
+   gap: 30px;
+   background-color: black;
+   align-items: center;
+   border-radius: 0px 10px 0px 10px;
+   margin: 10px 0px 30px;
+ }
+ 
+#menu a {
+   text-decoration: none;
+   padding: 10px;
+   color: gray;
+   font-family: "Roboto", sans-serif;
+   font-size: 0.4rem;
+   transition: color 0.5s;
+   
+}
+
+h1{
+   font-size: 20px;
+   font-family: tahoma;
+   text-transform: capitalize;
+   text-align: center;
+   /* font-weight: bold; */
+   color: white;
+   margin-bottom: 20px;
+}
+
+#banner{
+   max-width: 100%;
+   border-radius: 0px 20px 0px 20px;
+   border: 3px solid white;
+}
+
+p{
+   margin-bottom: 10px;
+}
+
+h2{
+   color: red;
+   font-weight: bold;
+}
+
+h3{
+   color: red;
+   background-color: black;
+   text-transform: uppercase;
+   margin: 30px 0px 30px;
+}
+
+h4{
+   color: red;
+   margin: 20px;
+}
+
+#tabelaImagens{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+#tabelaImagens img{
+   margin: 10px;
+   border: 10px solid black;
+   border-radius: 20px;
+}
+
+#tabelaImagens img:hover {
+   border: 10px solid red;
+   transition: 1.0s;
+}
+
+#listaMortes {
+   background-color: black;
+   padding-left: 30px;
+   padding: 10px;
+}
+
+#listaMortes li {
+   margin: 15px;
+   margin-left: 30px;
+   max-width: 100%;
+}
+
+#listaMortes li a{
+   color: gray;
+   text-decoration: none;
+
+}
+
+#listaMortes li a:hover{
+   color: black;
+   background-color: white;
+   transition: 1.0s;
+}
+
+ol{
+   background-color: black;
+   padding-left: 30px;
+   padding: 10px;
+}
+
+ol li{
+   margin: 20px;  
+   color: gray;
+}
+
+ol li:hover{
+   margin: 20px;  
+   color: black;
+   background-color: white;
+   transition: 1.0s;
+}
