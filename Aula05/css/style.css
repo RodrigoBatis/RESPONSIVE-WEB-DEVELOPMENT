@@ -1,0 +1,39 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+
+   background-image: url(../img/fundo.png);
+   background-attachment: fixed;
+   background-size: contain;
+}
+
+#container{
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+   height: 300px;
+   /* background-color: aqua; */
+   background-image: url(../img/fundo.png);
+}
+
+#header{
+   width: 100%;
+   height: 50px;
+   background-color: black;
+}
+
+#header .logo{
+   
+   background-position: 170px -20px;
+
+}
+
+#header .caixa{
+   width: 150px;
+   height: 150px;
+   
+}
+#header .imgB{
+
+   background-image: url(../img/imagensB.png);
+}
