@@ -1,0 +1,59 @@
+body{
+   background-color: #ccc;
+}
+
+#container{
+   border: 13px solid #fff;
+   width: 610px;
+   height: 366px;
+   margin: auto;
+}
+
+#menu{
+   display: inline-block;
+   background-color: #666;
+   height: 210px;
+}
+
+ul li{list-style: none;}
+
+.box{
+   width: 80px;
+   height: 80px;
+   border: 1px solid #fff;
+   margin: 2px;
+   display: inline-block;
+}
+
+.imagem{
+   background-image: url(../img/imagens.png);
+}
+
+.pos-1{background-position: 0px 580px}
+.pos-2{background-position: -88px 575px}
+.pos-3{background-position: -178px 575px}
+.pos-4{background-position: -269px 575px}
+.pos-5{background-position: -283px 491px}
+.pos-6{background-position: -187px 491px}
+.pos-7{background-position: -97px 501px}
+.pos-8{background-position: -5px 501px}
+
+
+ul li:hover{
+   background-position: -178px 575px;
+   background-color: tomato;
+   cursor: pointer;
+}
+
+.caixa{
+   width: 120px;
+   height: 150px;
+   border: 1px solid #fff;
+   float: left;
+}
+
+.cor-1{background-color: red;}
+.cor-2{background-color: tomato;}
+.cor-3{background-color: orange;}
+.cor-4{background-color: yellow;}
+.cor-5{background-color: greenyellow;}

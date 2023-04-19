@@ -10,7 +10,71 @@
 </head>
 <body>
    
+   <!-- Controi a estrutura abaixo
+      #container>(#cabecalho>.logo.imgB+#menu>ul>(li>a{menu-$})*5)+(#banner)+(#produtos>h3{PRINCIPAIS PRODUTOS}+(.caixa>.imgA.pos-$.ajuste+{item-$}+p{R$,00})*4)+(#servicos>h3{SERVIÇOS}(.caixa>(h4{NomeServiço-$})+.imgB.pos-$.ajuste+p>lorem20)*2)+(#rodape>(p>lorem10)+ul>(li.imgB.pos-$.ajuste)*3) 
+   -->
+
    <div id="container">
+      <div id="cabecalho">
+         <div class="logo imgB"></div>
+         <div id="menu">
+            <ul>
+               <li><a href="#">HOME</a></li>
+               <li><a href="#">EMPRESA</a></li>
+               <li><a href="#">SERVIÇOS</a></li>
+               <li><a href="#">SUPORTE</a></li>
+               <li><a href="#">CONTATO</a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="banner"></div>
+      <div id="produtos">
+         <h3>PRINCIPAIS PRODUTOS</h3>
+         <div class="caixa">
+            <div class="imgA pos-1 ajuste"></div>
+            <h4>Calça</h4>
+            <p>R$ 1200,00</p>
+         </div>
+         <div class="caixa">
+            <div class="imgA pos-2 ajuste"></div>
+            <h4>Bota de couro</h4>
+            <p>R$ 250,00</p>
+         </div>
+         <div class="caixa">
+            <div class="imgA pos-3 ajuste"></div>
+            <h4>Capacete</h4>
+            <p>R$ 850,00</p>
+         </div>
+         <div class="caixa">
+            <div class="imgA pos-4 ajuste"></div>
+            <h4>Jaqueta</h4>
+            <p>R$ 2200,00</p>
+         </div>
+      </div>
+      <div id="servicos">
+         <h3>SERVIÇOS</h3>
+         <div class="caixa">
+            <h4>Concessionárias</h4>
+            <div class="imgB pos-1 ajuste"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatum, enim repellendus aspernatur excepturi aut minima dolor optio et omnis!</p>
+         </div>
+         <div class="caixa">
+            <h4>TeleVendas</h4>
+            <div class="imgB pos-2 ajuste"></div>
+            <p>Maiores sit, veritatis possimus nesciunt, officiis voluptatum corrupti perspiciatis pariatur voluptate consequatur, ex exercitationem cumque eligendi aliquid nihil! Corrupti, labore.</p>
+         </div>
+      </div>
+      <div id="rodape">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ea?</p>
+         <ul>
+            <li class="imgB pos-1 ajuste"></li>
+            <li class="imgB pos-2 ajuste"></li>
+            <li class="imgB pos-3 ajuste"></li>
+         </ul>
+      </div>
+   </div>
+
+   <!-- <div id="container">
 
       <div id="header">
          <div class="logo imgB caixa">
@@ -60,7 +124,7 @@
       </div>
 
 
-   </div>
+   </div> -->
 
 </body>
 </html>
