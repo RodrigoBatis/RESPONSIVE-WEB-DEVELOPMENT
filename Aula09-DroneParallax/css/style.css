@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 14px;
+   line-height: 1.5;
+   color: #333;
+   background-color: #fff;
+}
+
+.header-site{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+
+.header-site p{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    padding: 0 15px 0 15px;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txtCenter{text-align: center;}
+.lead{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: Roboto, arial, verdana;
+}
+
+h2{
+    font-size: 5em;
+    font-family: "Permanent Marker", arial, verdana ; 
+}
+
+.header-site h2{
+    text-shadow: 5px 5px 5px black;
+}
+
+h3{
+    font-size: 1.4em;
+    font-family: Acme, sans-serif;
+}
+
+h2, h3{
+    /*margin-top: 20px;
+    margin-bottom: 10px;*/
+    margin: 20px 0 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: tomato;
+    border-color: #d43f3a;
+}
+.btn-danger:hover{
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
