@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de irmão</title>
+
+    <style>
+        /* 
+            Selecionar apenas o paragrafo imediatamente seguinte ao 
+            subtitulo
+        */
+        h2 + p{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Seletor de irmão adjacente</h1>
+    <article>
+        <h1>Aluno</h1>
+        <p>Rodrigo Batista</p>  
+
+        <h2>Aulas</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+    </article>
+    <p>teste</p>
+</body>
+</html>
