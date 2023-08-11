@@ -230,3 +230,70 @@ footer span:hover{
 footer p{
     max-width: 800px;
 }
+
+@media screen and (max-width: 390px){
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+    }
+
+    header img {
+        width: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    header li{
+        margin-left: -10px;
+    }
+
+    header li a {
+        font-size: 0.6rem;
+    }
+
+    .temporada h1 {
+        font-size: 1.2rem;
+        margin-left: -70px;
+    }
+
+    .temporada p {
+        max-width: 310px;
+        margin-left: -60px;
+        font-size: 0.9rem;
+    }
+
+    .btn{
+        margin-left: -60px;
+    }
+
+    .mortes{
+        max-width: 390px;
+        align-items: normal;
+    }
+
+    .mortes h3{
+       display: flex;
+       align-items: center;
+    }
+
+    .mortes p{
+        max-width: 250px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .mortes hr{
+        margin-left: -0px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: 10px
+    }
+}
+
+@media screen and (max-width: 844px){
+    
+}
