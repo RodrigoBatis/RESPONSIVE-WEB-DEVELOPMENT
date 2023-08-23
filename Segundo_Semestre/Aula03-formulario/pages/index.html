@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validação Formulário</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/estilo.css">
+
+	<script src="../js/script.js"></script>
+	
+</head>
+<body>
+	<form action="resultado.html" name="form">
+		<div class="box" id="box">
+			<div class="colors">
+				<div class='caixa preta' onclick="mudarCor(1)"></div>
+				<div class='caixa azul' onclick="mudarCor(2)"></div>
+				<div class='caixa vermelha' onclick="mudarCor(3)"></div>
+				<div class='caixa verde' onclick="mudarCor(4)"></div>
+			</div>
+			<h1>Formulário de Contato</h1>
+			
+			<label>
+				<span>Nome:</span>
+				<input type="text" value='' id='nome' class='input_text' required>
+			</label>
+			<label>
+				<span>E-mail:</span>
+		       <!-- <input type="text" value='' id='email' class='input_text'> -->
+				<input type="email" value='' id='email' class='input_text' required>
+				<!-- <input type="number" value='' id='email' class='input_text' required> -->
+			</label>
+			<label>
+				<span>Assunto:</span>
+				<input type="text" value='' id='assunto' class='input_text' required>
+			</label>
+			<label>
+				<span>Mensagem:</span>
+				<textarea id="mensagem" class='message' required></textarea>
+			</label>
+			
+			<input type="submit" value='enviar 1' class='botao'>
+			<input type="button" value='enviar 2' class='botao' onclick="validacao()">
+			<input type="button" value='enviar 3' class='botao' onclick="validacao2()">
+
+			<div class="mensagemErro" id='mensagemErro'></div>
+
+		</div>
+
+	</form>
+</body>
+</html>

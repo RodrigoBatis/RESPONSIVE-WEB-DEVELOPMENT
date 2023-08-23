@@ -1,0 +1,96 @@
+body{
+	font-size: 12px;
+	font-family: tahoma;
+	background-color: aliceblue;
+}
+
+.box{
+	margin: 0 auto;
+	width: 500px;
+	background-color: #222;
+	border:1px solid #ccc;
+	margin-bottom: 50px;
+}
+input, textarea{color:blue;}
+
+.box h1{
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.box label{
+	width: 100%;
+	display: block;
+	background-color: #1c1c1c;
+	border-top: 1px solid #161712;
+	border-bottom: 1px solid #161712;
+	padding: 10px 0px 10px 0;
+}
+
+.box label span{
+	display: block;
+	color: #bbb;
+	font-size: 12px;
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding: 5px 20px 0 0;
+}
+
+.box .input_text{
+ 	padding: 10px 10px;
+ 	width: 200px;
+ 	background-color: #262626;
+ 	border-bottom: 1px double #171717;
+ 	border-top: 1px double #171717	;
+ 	border-left: 1px double #333;
+ 	border-right: 1px double #333;
+ 	color: #fff;
+}
+
+.box .message{
+	padding: 7px 7px;
+	width: 350px;
+	height: 150px;
+	background-color: #262626;
+	border-bottom: 1px double #171717;
+ 	border-top: 1px double #171717	;
+ 	border-left: 1px double #333;
+ 	border-right: 1px double #333;
+ 	color:#fff;
+ 	overflow: hidden;
+}
+
+.box .botao{
+	margin: 0 0 10px 0;
+	padding: 4px 7px;
+	background-color: #999;
+	border: 0px;
+	width: 100px;
+	border: 1px double #fff; 
+	left: 144px;
+    position: relative;
+    top: 5px;
+}
+
+.colors{
+	width: 120px; 
+	float: right;
+	display: flex;
+}
+
+.caixa{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+
+.preto{background-color: #000;}
+.azul{background-color: blue;}
+.vermelha{background-color: red;}
+.verde{background-color: green;}
