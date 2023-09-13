@@ -1,3 +1,4 @@
+import './Contato.css'
 export default function Contato(){
 
    return(

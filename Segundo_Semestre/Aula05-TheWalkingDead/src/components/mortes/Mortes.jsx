@@ -1,3 +1,4 @@
+import './Mortes.css'
 export default function Mortes(){
 
    return(
@@ -15,13 +16,13 @@ export default function Mortes(){
                         impedit eos id hic perspiciatis voluptate.</p>
                   </li>
                   <li>
-                     <span className="material-symbols-outlined">diversity_2</span>
+                     <span className="material-symbols-outlined">coronavirus</span>
                      <h3>Epidemia</h3>
                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Corrupti mollitia veniam vero quidem, rem ut?</p>
                   </li>
                   <li>
-                     <span className="material-symbols-outlined">domino_mask</span>
+                     <span className="material-symbols-outlined">medical_mask</span>
                      <h3>Nosso heróis</h3>
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                         Iste provident qui, quaerat aperiam velit expedita.</p>

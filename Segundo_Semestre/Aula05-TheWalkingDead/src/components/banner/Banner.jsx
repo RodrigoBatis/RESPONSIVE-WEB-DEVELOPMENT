@@ -1,7 +1,10 @@
+import './Banner.css'
 export default function Banner(){
 
    return(
       
+      // style={{color:"red"}} Como usar CSS no .jsx
+
       <>
          <section className="temporada">
             <h1>The Walking Dead 1ª Temporada</h1>
