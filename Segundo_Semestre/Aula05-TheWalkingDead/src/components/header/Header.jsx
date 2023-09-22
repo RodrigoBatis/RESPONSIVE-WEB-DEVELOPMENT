@@ -1,5 +1,6 @@
 import logo from "../../assets/logo.png"
 import './Header.css'
+import { Link } from "react-router-dom"
 
 export default function Header() {
 
@@ -14,11 +15,11 @@ export default function Header() {
             </a>
             <nav>
                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">História</a></li>
-                  <li><a href="#">Epsódios</a></li>
-                  <li><a href="#">Série Quadrinhos</a></li>
-                  <li><a href="#">Contatos</a></li>    
+                  <li><a href="#"><Link to='/'>Home</Link></a></li>
+                  <li><a href="#"><Link to='/historia'>História</Link></a></li>
+                  <li><a href="#"><Link to='/episodios'>Episódios</Link></a></li>
+                  <li><a href="#"><Link to='/serie'>Série Quadrinhos</Link></a></li>
+                  <li><a href="#"><Link to='/contatos'>Contatos</Link></a></li>    
                </ul>
             </nav>
          </header>
