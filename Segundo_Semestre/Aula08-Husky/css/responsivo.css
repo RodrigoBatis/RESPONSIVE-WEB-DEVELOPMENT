@@ -1,0 +1,27 @@
+@media screen and (min-width: 667px) {
+	.logo{
+		width: 200px ;
+		background: url(../img/logo_large.jpg)center center/148px no-repeat;
+	}	
+
+	header{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+      flex-direction: column;
+	}
+
+	.btn-menu{
+		display: none;
+	}
+
+   .menu{
+      height: 3em;
+      width: 90%;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      background: rgb(0 113 193 / 91%);
+   }
+
+}

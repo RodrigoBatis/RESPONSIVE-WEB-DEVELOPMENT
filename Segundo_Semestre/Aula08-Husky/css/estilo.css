@@ -1,0 +1,197 @@
+:root{
+	--corAzul: #0071c1 ;
+	--corCinza: #7f929c;
+
+	--pos100: 100%;
+	--posTB: 3%;
+	--posLR: 4%;
+}
+
+
+
+a{text-decoration: none}
+ul{list-style: none}
+img{max-width: 100%;}
+
+body{
+	background-color: #fff;
+	font-family: Roboto, sans-serif;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: var(--posTB) var(--posLR);
+}
+
+.logo{
+	width: 80px ;
+	height: 80px;
+	background: url(../img/logo.jpg)center center/60px no-repeat;
+	font-size: 0px;
+}
+
+.btn-menu{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	border-radius: 25px;
+	cursor: pointer;
+	background: linear-gradient(to right, var(--corAzul), var(--corCinza) );
+	margin-top: var(--posLR);
+}
+
+
+
+.menu{
+	width: var(--pos100);
+	height: var(--pos100);
+	background: rgb(0 113 193 / 91%);;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.menu a span{
+	color: #fff;
+	float: right;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: var(--posTB);
+}
+
+.menu ul{
+	width: var(--pos100);
+	text-align: center;
+	float: left;	
+}
+
+.menu li{
+	padding: 6%;
+}
+
+.menu li a{
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+	padding: 1.5% 3%;
+}
+
+.menu li a:hover{
+	background-color: #f7f7f7;
+	border: 1px solid var(--corCinza);
+	color: var(--corAzul);
+}
+
+
+figure{
+	width: var(--pos100);
+	padding: var(--posTB) var(--posLR);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(../img/dog-00.jpg) no-repeat fixed;
+	background-size: cover;
+	margin-bottom: 5%;
+	text-align: center;	
+}
+
+figure h2{
+	color: var(--corAzul);
+	font-size: 2.5rem;
+	font-family: Oswald, sans-serif;
+	margin-bottom: 5%;
+	font-weight: bold;
+}
+
+figcaption{
+	width: var(--pos100);
+}
+
+figure p{
+	font-size: 1.5rem ;
+	color: var(--corCinza);
+	margin-bottom: 5%;
+}
+
+figure .btn{
+	width: var(--pos100);
+	font-size: 2.0rem;
+	text-align: center;
+	font-family: Skranji, sans-serif;
+	border-radius: 10px;
+	border: 1px solid var(--corCinza);
+	padding: 5%;
+	margin-bottom: 2%;
+}
+
+figure .btn-cadastrar{
+	background-color: #4697cd;
+	color: #fff; 
+}
+figure .btn-sobre{
+	background-color: #c5e5fa;
+	color: var(--corCinza); 
+}
+
+figure button span{
+	float: right;
+	font-size: 2.5rem!important;
+	font-weight: bold!important;
+}
+
+.servicos{
+	width: var(--pos100);
+	display: flex;
+	flex-direction: column;
+	padding: var(--posTB) var(--posLR);
+	margin-bottom: 5%;
+	background-color: #e1e3e4;
+	border-radius: 15px;
+}
+
+.servicos img{
+	border-radius: 7px 7px 0 0 ;
+}
+
+.servicos .texto{
+	padding: 7%;
+}
+
+.servicos h4{
+	font-family: Skranji, sans-serif ;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin-bottom: 6%;
+	color: var(--corAzul);
+	text-align: center;
+}
+
+.servicos p{
+	line-height: 1.3;
+	color: #333;
+}
+
+footer{
+	background-color: var(--corAzul);
+	width: var(--pos100);
+	padding: var(--posTB) var(--posLR);
+	text-align: center;
+}
+
+footer span{
+	color: #fff;
+	font-size: 29px!important;
+	padding: 4%;
+}
+
+
+footer a:hover{
+	color:#666;
+}
+

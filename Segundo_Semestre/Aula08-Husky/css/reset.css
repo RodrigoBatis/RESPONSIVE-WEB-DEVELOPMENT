@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,39 +47,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-/*
-	clearfix
-	http://www.webtoolkit.info/css-clearfix.html
-*/
-
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
- 
-.clearfix {
-	display: inline-block;
-}
- 
-html[xmlns] .clearfix {
-	display: block;
-}
- 
-* html .clearfix {
-	height: 1%;
-}
-
-/*
-Ele resolve o problema do espaço do padding de todo o site, para não quebrar
-http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-*/
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
