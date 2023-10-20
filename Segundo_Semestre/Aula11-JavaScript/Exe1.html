@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <div id="container">
+
+        <h1>Trabalhando com Eventos</h1>
+        <hr>
+        <a href="#" onclick="alert('Calabreso')">Clique aqui</a>
+        <hr>
+        <button onclick="alert('Mussarelo')">Clique aqui</button>
+        <hr>
+        <button onclick="funcTola(20, 100)">Clique aqui</button>
+        <hr>
+        <button id="btnTola1">Função Anonima</button>
+        <hr>
+        <button id="btnTola2">Arrow Function</button>
+        <hr>
+        <button id="btnTola3">addEventListener</button>
+        <hr>
+        <button id="btnTola4">addEventListener + funcoes</button>
+        <hr>
+        <button class="xpto">Toscano</button>
+        <button class="xpto">Camisinho</button>
+        <button class="xpto">Ludmilo</button>
+        <button class="xpto">Tilapio</button>
+        <button class="xpto">Mortadelo</button>
+        <button class="xpto">Bistéco</button>
+        <button class="xpto">Pitango</button>
+        <button class="xpto">Lacraio</button>
+        <button class="xpto">Panqueco</button>
+        <button class="xpto">Linguiço</button>
+
+    </div>
+
+    <script>
+        function funcTola(numA, numB){
+            alert(numA + numB)
+        }
+
+        // --------------------------------------------
+
+        document.querySelector('#btnTola1').onclick = function(){
+            alert("CNPJoto")
+        }
+
+        document.querySelector('#btnTola2').onclick = () => {
+            alert('Prexeco');
+        }
+
+        document.querySelector('#btnTola3').addEventListener('click', () => {
+            alert('Ludmilo')
+        })
+
+        let btnAcao = document.querySelector('#btnTola4');
+
+        btnAcao.addEventListener('click', VaiGambazada);
+        btnAcao.addEventListener('mouseenter', VaiPorcada);
+
+        function VaiGambazada(){
+            alert("Vai Gambazada 🦨🦨🦨🦨🦨🦨🦨🦨🦨🦨")
+        }
+
+        function VaiPorcada(){
+            btnAcao.innerHTML ="Vai Porcada 🐷🐷🐷🐷🐷🐷🐷🐷🐷🐷";
+        }
+
+        let btn = document.querySelectorAll('.xpto');
+
+        btn.forEach(function(btnXPTO, i) {
+            btnXPTO.addEventListener('click', function(){
+                console.log(`Cliclou no botão ${i} `);
+                btnXPTO.style.background = 'yellow';
+            })
+        })
+
+    </script>
+
+</body>
+</html>
